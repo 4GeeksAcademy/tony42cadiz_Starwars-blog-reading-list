@@ -1,0 +1,24 @@
+.suggestions {
+    position: relative;
+    display: inline-block;
+    width: 300px;
+  }
+  
+  .suggestions-list {
+    position: absolute;
+    display: inline-block;
+    top: 100%;
+    z-index: 1;
+    width: 300px;
+    list-style: none;
+  }
+  
+  .suggestions-items {
+    background-color: #f9d81ba5;
+    padding: 8px;
+    cursor: pointer;
+  }
+  
+  .suggestions-items:hover {
+    background-color: #f9d71b;
+  }
